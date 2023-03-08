@@ -1,15 +1,12 @@
+// Daniel Isaksson
+// Daniel.isaksson90@gmail.com
 package Geometry;
 import java.awt.*;
 import javax.swing.*;
 
 public class Main extends JFrame {
 
-    public Main(){
-
-    }
-
     public static void main(String[] args){
-
 
         Panel p = new Panel();
         p.setBackground(Color.LIGHT_GRAY);
@@ -20,6 +17,6 @@ public class Main extends JFrame {
         db.add(p);
         db.setVisible(true);
 
-    }
+    }//main
 
-}
+}//Main

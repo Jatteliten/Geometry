@@ -1,3 +1,5 @@
+// Daniel Isaksson
+// Daniel.isaksson90@gmail.com
 package Geometry;
 import java.awt.*;
 
@@ -8,5 +10,6 @@ public interface Shape {
     void draw(Graphics g);
     void currentPosition(int dx, int dy);
     boolean contains(int x, int y);
-}
+
+}//interface
 
